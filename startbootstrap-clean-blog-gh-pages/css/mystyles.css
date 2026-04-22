@@ -1,0 +1,83 @@
+.movie-list {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-family: impact;
+    color:white;
+    text-shadow:
+        -3px -3px 0 black,
+         3px -3px 0 black,
+        -3px  3px 0 black,
+         3px  3px 0 black;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
+}
+body{
+    background: #bdc3c7;
+  background: linear-gradient(
+    to right,
+    #bdc3c7,#2c3e50
+  );
+}
+.title-text{
+    font-family: impact;
+    color:white;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+         text-align: left;
+}
+.common{
+    text-align: right;
+}
+.common a {
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.25px;
+}
+.common :visited{
+    color: black;
+}
+.common.footer{
+    color: white;
+}
+.action-section h2 {
+    padding-left: 40px;
+    text-align: center;
+}
+.romcom-section h2 {
+    padding-left: 40px;
+    text-align: center;
+}
+.movie-list img{
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: auto;
+}
+.movie-list li {
+    text-align: center;
+}
+.honorable-mention {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
